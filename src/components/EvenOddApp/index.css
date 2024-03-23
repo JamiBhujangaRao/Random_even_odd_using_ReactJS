@@ -1,0 +1,44 @@
+/* Write your CSS here */
+.bg-container {
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto;
+}
+.card-container {
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  height: 70vh;
+  width: 70vw;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+.count {
+  color: #0f172a;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.result {
+  color: #1e293b;
+  font-size: 30px;
+}
+.btn {
+  background-color: white;
+  font-size: 15px;
+  color: #0f172a;
+  height: 40px;
+  width: 150px;
+  border-radius: 08px;
+  border-width: 0px;
+}
+.info {
+  font-size: 17px;
+  padding: 10px;
+  color: #334155;
+}
